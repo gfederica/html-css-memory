@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nerko One', cursive;
+    width: 50%;
+    margin:auto;
+}
+
+
+header,
+footer {
+    text-align: center;
+}
+
+
+#clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    display: inline-block;
+    width: 160px;
+    height: 200px;
+    background-color: aliceblue;
+    float: left;
+    margin: 10px;
+}
